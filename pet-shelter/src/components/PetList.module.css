@@ -1,0 +1,10 @@
+.pettable {
+    margin: 0px auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.actiongroup *{
+    margin-left: 5px;
+    margin-right: 5px;
+}

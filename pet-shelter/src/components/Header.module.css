@@ -1,0 +1,12 @@
+h1 {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 75px;
+  }
+  
+  .headercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10%;
+  }
