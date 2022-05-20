@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://127.0.0.1/pet_shelter", {
+  .connect("mongodb://localhost/pet_shelter", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    family: 4
   })
   .then(() => console.log("---------- Connected to database ----------"))
 
